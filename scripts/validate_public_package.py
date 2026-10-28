@@ -22,10 +22,10 @@ def items_for(name):
 zh = items_for('examples_zh')
 en = items_for('examples_en')
 assert len(zh) == len(en) == 3, f'Examples invalid: Chinese={len(zh)}, English={len(en)}'
-assert re.search(r'(?m)^version:\s*0\.2\.6\s*$', meta)
+assert re.search(r'(?m)^version:\s*0\.2\.7\s*$', meta)
 
 release = json.loads((SKILL / 'scripts' / 'release.json').read_text(encoding='utf-8'))
-assert release['version'] == '0.2.6'
+assert release['version'] == '0.2.7'
 
 pyfiles = list((SKILL / 'scripts').glob('*.py'))
 assert len(pyfiles) >= 15
@@ -44,4 +44,4 @@ for path in SKILL.rglob('*'):
     assert name not in {'.env', 'contacts.sqlite3', 'token.json', 'config.yaml'}
     assert path.suffix.lower() not in {'.db', '.sqlite3', '.xlsx', '.xls', '.eml', '.pst', '.ost', '.pem', '.key', '.pfx'}
 
-print(f'OK: {len(pyfiles)} Python files parsed; 3+3 examples; version 0.2.6; no obvious data artifacts')
+print(f'OK: {len(pyfiles)} Python files parsed; 3+3 examples; version 0.2.7; no obvious data artifacts')

@@ -1,6 +1,6 @@
 {
   "release": "ehelp-mail-contact-workbench-20261027-market-beta",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "product_scope": "Local persistent contact ledger with human annotations, HTML and Excel",
   "platform_verified": [
     "Windows"
@@ -61,7 +61,7 @@
   ],
   "foxmail_validation_scope": "Windows installed data directory; bounded single-account samples with client closed and open; no concurrent source mutation observed",
   "foxmail_client_open_sample_verified": true,
-  "build_date": "2026-10-27",
+  "build_date": "2026-10-28",
   "marketplace_name": "易邮｜邮件往来联系人整理",
   "marketplace_execution_note": "Needs local Windows execution and access to local mail client data; paid cloud execution not yet verified",
   "public_beta_not_yet_verified": [

@@ -13,7 +13,7 @@ examples_en:
   - "Organize contacts from my last 30 days of locally synced emails and export Excel."
   - "Update my contact list and summarize what's new or changed."
   - "Mark a specific contact as followed and save my note."
-version: 0.2.6
+version: 0.2.7
 author: "易邮 Ehelp Mail"
 ---
 

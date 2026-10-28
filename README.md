@@ -1,12 +1,12 @@
 # 易邮｜邮件往来联系人整理
 
-**易邮 v0.2.6 · 免费 · Windows 本地邮件联系人整理 Skill · 公开测试版**
+**易邮 v0.2.7 · 免费 · Windows 本地邮件联系人整理 Skill · 公开测试版**
 
 > 帮你整理电脑上已同步邮件中的往来联系人：建立本地台账、查看新增和变化、标记关注、导出 Excel / HTML。
 
 [**在 WorkBuddy 免费安装易邮**](https://www.workbuddy.cn/share/asset?shareCode=xm3CdjLZYN32x8XuJHwet9&sig=57KKo-dO99vMavqi) · [反馈问题](../../issues/new/choose) · [阅读隐私说明](./PRIVACY.md)
 
-> 此仓库是单独发布的 **易邮联系人 Skill**，不包含 `ehelp-mail` 商业邮箱产品、`mail-assistant` 或 `jctrans-cli` 的完整私有项目。WorkBuddy 市场版与本仓 `skill/ehelp-mail/` 的源文件对应 v0.2.6。
+> 此仓库是单独发布的 **易邮联系人 Skill**，不包含 `ehelp-mail` 商业邮箱产品、`mail-assistant` 或 `jctrans-cli` 的完整私有项目。WorkBuddy 市场版与本仓 `skill/ehelp-mail/` 的源文件对应 v0.2.7。
 
 ## 能做什么
 
@@ -55,7 +55,7 @@
 ## 代码仓库结构
 
 ```text
-skill/ehelp-mail/              # 与上架 v0.2.6 对应的 Skill 源文件
+skill/ehelp-mail/              # 与上架 v0.2.7 对应的 Skill 源文件
   SKILL.md                    # WorkBuddy 调用说明
   scripts/                    # 本地扫描与联系人台账程序
   references/                 # 使用指引与技术边界
@@ -72,10 +72,11 @@ python scripts/build_workbuddy_zip.py
 python -m unittest discover -s tests -v
 ```
 
-生成的 ZIP 位于 `dist/ehelp-contacts-workbuddy-v0.2.6.zip`。**普通用户优先通过 WorkBuddy 市场安装**，不需要通过 GitHub 源码操作 Python 命令。
+生成的 ZIP 位于 `dist/ehelp-contacts-workbuddy-v0.2.7.zip`。**普通用户优先通过 WorkBuddy 市场安装**，不需要通过 GitHub 源码操作 Python 命令。
 
 ## 版本与路线
 
+- `v0.2.7`：WorkBuddy 覆盖上传修复（导出品牌 ehelp-mail、删除 SECOND-STAGE 文档）。
 - `v0.2.6`：首个公开仓基线，专注联系人整理与反馈。
 - 下一步按真实反馈决定，暂不承诺自动发送邮件、后台定时扫描或完整 CRM。
 - 源代码更新、问题状态和后续版本在 GitHub 记录；WorkBuddy 市场更新仍以平台审核版本为准。

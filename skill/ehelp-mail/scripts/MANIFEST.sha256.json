@@ -17,7 +17,7 @@
   "mailmaster_adapter.py": "f8f3ac3105820a9e240f644b21f9c87746b1af3eb8fb6fabbba89e425a7d74f1",
   "mailmaster_discovery.py": "902d0ebd25f0e4ecc1b70252aeb797ce6c20fb877b5986d797793ff4fcfa1664",
   "models.py": "77d22bde0754bc85cd5da1a3485610fe0994868a43768de4f24863d1e06dc6bf",
-  "release.json": "f70f375c016d8680b306adb8b3bf1532c89fb5eae0053614dc6a0119e27befaf",
+  "release.json": "37a4ef8bd4c06e9f43227d1798e8354ba657f3172651a7820279222f2fbdec12",
   "run.sh": "7584fafd0d94528c515760a629adc4c649dccf5808d33f36e32290733e09966b",
   "workbench_cli.py": "4ab86ec73d3be86a8271015b782e5252fe47546b3bb12313cdbf95cccd14afc3"
 }

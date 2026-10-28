@@ -12,7 +12,7 @@ class TestRelease(unittest.TestCase):
 
     def test_build_preserves_source_bytes(self):
         subprocess.run([sys.executable, str(ROOT/'scripts'/'build_workbuddy_zip.py')], check=True)
-        p = ROOT/'dist'/'ehelp-contacts-workbuddy-v0.2.6.zip'
+        p = ROOT/'dist'/'ehelp-contacts-workbuddy-v0.2.7.zip'
         with zipfile.ZipFile(p) as z:
             assert z.testzip() is None
             for file in (ROOT/'skill'/'ehelp-mail').rglob('*'):
