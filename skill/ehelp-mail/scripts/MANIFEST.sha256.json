@@ -1,0 +1,23 @@
+{
+  "cli.py": "cca059baec921be7cae72cbd415294036445b2d63d711287950d2a8d321bae94",
+  "command_catalog.py": "852337c322d7d3e3324e115db240fa074ac2de9095cf70db99c463541c079865",
+  "contact_core.py": "9a6bae3828e4968136a26e218584cfc2c5460d018bcb9f6ec8554c865870ae1f",
+  "contact_export.py": "76aef8b752512dcd3469e93ebf5cabe2102d661efb02ebe1c46cdb86ed78d5dd",
+  "contact_ledger.py": "3f000108bbfb159f20a29c88fd8510c06f09669a144412140f0347ab11bc8c2e",
+  "contact_report.py": "39054a6046568731bda483a8a3173aabb1d2bdc270dcff16f7260ea74400e725",
+  "contact_source.py": "f21e0016ad6f2323b198986704682eef23f605537400248e7dafde835d36f6ea",
+  "ehelp_mail.bat": "80b82798ae7ef8574d18c4b27a704add246576093d440c44d4dabc0db0c34bf3",
+  "foxmail_contact_adapter.py": "0ab278d2a7966fb3b4674c9b17a16365d388d82b4d58d5663dd4afdf2db32439",
+  "foxmail_headers.py": "1709950a79b87f7efdc8cdae096a43b8ec0729017660d41d620213fd0c3ce800",
+  "install.bat": "86c7e29deaf264705d974d6954ea0643d9b34b8caea8c4a89f5f1ac482f60892",
+  "install.sh": "ce32b02932a6c5d8e68927cf956fed7b1a91b0651810075094d550c88fbc4d64",
+  "lifecycle.py": "0feca58fe57416cbad8cfa4ec1dd4ad72ec0d326cb505379b22ad1a465229885",
+  "macos_discovery.py": "e7829d3d0039c47e207114a26758a64cefd5097d9f603a4635d35c483898e089",
+  "mail_client_discovery.py": "762e20a206188223edb3a1cb8633f14727878c74e6d7c5e3328464f53d08adde",
+  "mailmaster_adapter.py": "f8f3ac3105820a9e240f644b21f9c87746b1af3eb8fb6fabbba89e425a7d74f1",
+  "mailmaster_discovery.py": "902d0ebd25f0e4ecc1b70252aeb797ce6c20fb877b5986d797793ff4fcfa1664",
+  "models.py": "77d22bde0754bc85cd5da1a3485610fe0994868a43768de4f24863d1e06dc6bf",
+  "release.json": "f70f375c016d8680b306adb8b3bf1532c89fb5eae0053614dc6a0119e27befaf",
+  "run.sh": "7584fafd0d94528c515760a629adc4c649dccf5808d33f36e32290733e09966b",
+  "workbench_cli.py": "4ab86ec73d3be86a8271015b782e5252fe47546b3bb12313cdbf95cccd14afc3"
+}

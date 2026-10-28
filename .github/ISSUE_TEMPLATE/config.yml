@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 隐私与安全说明 / Security and privacy
+    url: https://github.com/bobbanga/ehelp-contacts-skill/blob/main/SECURITY.md
+    about: 安全问题请勿公开提供邮件、联系人、数据库、密钥或原始日志

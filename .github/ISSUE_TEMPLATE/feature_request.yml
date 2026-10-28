@@ -1,0 +1,43 @@
+name: '💡 功能建议 / Feature'
+description: '告诉我们你实际遇到的工作问题'
+title: '[Feature] '
+body:
+  - type: markdown
+    attributes:
+      value: '请描述场景，不要贴真实邮件或联系人资料。'
+  - type: dropdown
+    id: scenario
+    attributes:
+      label: 主要使用场景
+      options:
+        - 外贸 / 货代
+        - 销售 / 客户管理
+        - 行政 / 普通办公
+        - 技术 / 开发者
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: pain
+    attributes:
+      label: 现在需要手工做什么，最麻烦的是什么？
+      description: 写真实工作任务，避免贴个人或客户资料
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 希望易邮帮你得到什么结果？
+    validations:
+      required: true
+  - type: dropdown
+    id: importance
+    attributes:
+      label: 这个问题出现的频率
+      options:
+        - 每天
+        - 每周
+        - 每月
+        - 偶尔
+    validations:
+      required: true

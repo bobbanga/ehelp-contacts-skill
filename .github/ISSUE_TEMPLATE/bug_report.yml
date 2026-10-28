@@ -1,0 +1,73 @@
+name: '🐛 运行问题 / Bug'
+description: '报告安装、扫描、导出、更新失败（不要提交个人数据）'
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: '⚠️ 请勿提交真实邮箱地址、联系人、主题、数据库、Excel、邮件内容、完整日志、密码或 Token。'
+  - type: input
+    id: version
+    attributes:
+      label: Skill 版本
+      placeholder: '0.2.6'
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: 操作系统
+      options:
+        - Windows 11
+        - Windows 10
+        - 其他（请在下面说明）
+    validations:
+      required: true
+  - type: dropdown
+    id: client
+    attributes:
+      label: 邮箱客户端
+      options:
+        - 网易邮箱大师
+        - Foxmail
+        - 尚未安装 / 未检测到
+        - 其他
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 遇到问题的阶段
+      options:
+        - 安装或环境诊断
+        - 账号识别
+        - 扫描预览
+        - 写入台账
+        - Excel / HTML 导出
+        - 再次更新 / 去重
+        - 关注 / 备注
+        - WorkBuddy 无法访问本机
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 如何复现？
+      description: 只写操作步骤；使用虚构邮箱 example.com 替代真实信息
+      placeholder: '1. 运行… 2. 选择… 3. 出现…'
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果与实际结果
+      description: 可粘贴简短、已脱敏的错误码，不要粘贴完整原始日志
+    validations:
+      required: true
+  - type: checkboxes
+    id: private
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我确认内容不包含真实客户信息、邮箱明细、密码、数据库和未脱敏日志。
+          required: true

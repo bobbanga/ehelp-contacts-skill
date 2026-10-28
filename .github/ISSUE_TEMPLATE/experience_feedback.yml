@@ -1,0 +1,50 @@
+name: '📝 使用体验 / Feedback'
+description: '首次是否成功、什么最有价值、是否愿意再用'
+title: '[Feedback] '
+body:
+  - type: markdown
+    attributes:
+      value: '请仅提交自愿的、脱敏的使用感受。不要上传邮件、联系人或导出文件。'
+  - type: dropdown
+    id: first_result
+    attributes:
+      label: 你首次使用的结果
+      options:
+        - 成功完成整理并打开结果
+        - 只完成安装或识别，尚未整理
+        - 运行失败
+        - 尚未试用，只看过介绍
+    validations:
+      required: true
+  - type: dropdown
+    id: time
+    attributes:
+      label: 首次得到结果大约花了多久？
+      options:
+        - 10 分钟以内
+        - 10-30 分钟
+        - 超过 30 分钟
+        - 尚未得到结果
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: 哪一步最有帮助，哪一步最麻烦？
+    validations:
+      required: true
+  - type: dropdown
+    id: retry
+    attributes:
+      label: 你会再次更新联系人台账吗？
+      options:
+        - 会
+        - 可能会
+        - 不会
+        - 暂不确定
+    validations:
+      required: true
+  - type: textarea
+    id: needs
+    attributes:
+      label: 接下来最想解决的一个问题（可选）

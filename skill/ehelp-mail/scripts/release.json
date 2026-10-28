@@ -1,0 +1,77 @@
+{
+  "release": "ehelp-mail-contact-workbench-20261027-market-beta",
+  "version": "0.2.6",
+  "product_scope": "Local persistent contact ledger with human annotations, HTML and Excel",
+  "platform_verified": [
+    "Windows"
+  ],
+  "mail_sources": [
+    "MailMaster",
+    "Foxmail"
+  ],
+  "verified_mail_sources": [
+    "MailMaster"
+  ],
+  "research_gated_mail_sources": [
+    "Foxmail active-sync concurrent mutation",
+    "macOS local mail scan",
+    "Linux local mail scan"
+  ],
+  "model_required": false,
+  "new_full_mail_database": false,
+  "feishu_write": false,
+  "send": false,
+  "auto_quote": false,
+  "contains_customer_data": false,
+  "license_required": false,
+  "available_commands": [
+    "doctor",
+    "accounts",
+    "contacts",
+    "update",
+    "annotate",
+    "report",
+    "version",
+    "status",
+    "backup",
+    "restore",
+    "upgrade"
+  ],
+  "installation_requires_network": true,
+  "runtime_requires_network": false,
+  "first_install_python": ">=3.11",
+  "local_contact_database": true,
+  "local_storage": "Automatic per-user SQLite ledger, no mail bodies or attachments",
+  "release_channel": "beta",
+  "historical_sample_verified_mail_sources": [
+    "Foxmail"
+  ],
+  "live_install_validation_pending": [],
+  "source_plan_version": 2,
+  "upgrade_plan_version": 1,
+  "restore_plan_version": 1,
+  "upgrade_preserves_old_package": true,
+  "upgrade_preserves_ledger": true,
+  "foxmail_header_only": true,
+  "live_install_sample_verified_mail_sources": [
+    "Foxmail"
+  ],
+  "active_sync_validation_pending": [
+    "Foxmail"
+  ],
+  "foxmail_validation_scope": "Windows installed data directory; bounded single-account samples with client closed and open; no concurrent source mutation observed",
+  "foxmail_client_open_sample_verified": true,
+  "build_date": "2026-10-27",
+  "marketplace_name": "易邮｜邮件往来联系人整理",
+  "marketplace_execution_note": "Needs local Windows execution and access to local mail client data; paid cloud execution not yet verified",
+  "public_beta_not_yet_verified": [
+    "WorkBuddy paid cloud-to-local execution",
+    "independent Windows user install",
+    "Foxmail concurrent active sync"
+  ],
+  "recommended_first_batch": {
+    "days": 30,
+    "email_limit": 200,
+    "export_limit": 100
+  }
+}
